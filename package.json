@@ -1,0 +1,20 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "Sample RESTFul Api's",
+  "main": "server.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Yashodhan",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mongodb": "^2.2.33",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
+}
