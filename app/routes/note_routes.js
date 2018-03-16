@@ -1,4 +1,4 @@
-module.exports = function(app, db) {
+module.exports = function(app) {
 	app.post('/notes', function (req, resp) {
 		console.log(req.body);
 		resp.send('hello');
