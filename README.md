@@ -2,14 +2,14 @@
 Sample web server in Nodejs which serves get and post request. Includes mysql connection example too.
 
 # Repository Structure
-```Server/<br/>
-|-- package.json<br/>
-|-- server.js<br/>
-|-- app/<br/>
-    |-- routes/<br/>
-        |-- index.js<br/>
-        |-- note_routes.js<br/>
-        |-- rfam_routes.js</br>
+```Server/
+|-- package.json
+|-- server.js
+|-- app/
+    |-- routes
+        |-- index.js
+        |-- note_routes.js
+        |-- rfam_routes.js
 ```
 
 * `server.js` file is responsible for starting the server and the port on which server should run. All the request are passed to `routes` module.
