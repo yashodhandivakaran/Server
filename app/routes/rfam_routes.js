@@ -25,6 +25,7 @@ module.exports = function (app) {
 
                         //execute sql query
                         con.query(sql, function (err, result) {
+				con.end();
                                 if (err) throw err;
                                 
                                 // console.log("Result: " + result);
